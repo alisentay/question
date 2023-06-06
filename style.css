@@ -1,0 +1,24 @@
+:root{
+    --bordo-primary: #212A3E;
+}
+
+.container {
+    background-color: var(--bordo-primary);
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header { 
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center; 
+}
+
+
+nav {
+    display: flex;
+    gap: 24px;
+}
